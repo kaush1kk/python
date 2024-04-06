@@ -1,0 +1,12 @@
+def generate_natural_numbers(n):
+    return list(range(1, n + 1))
+
+def main():
+    n = int(input("Enter the value of n: "))
+    if n <= 0:
+        print("Please enter a positive integer.")
+        return
+    print("The first", n, "natural numbers are:", generate_natural_numbers(n))
+
+if __name__ == "__main__":
+    main()
