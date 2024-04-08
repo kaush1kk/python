@@ -1,0 +1,11 @@
+a=50
+def add():
+    b = 20
+    c =a+b
+    print(c)
+    a=30
+    b=20
+def sub():
+c=a-b
+print(c):
+    
