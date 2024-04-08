@@ -1,0 +1,12 @@
+def recursive_sum(numbers):
+    # Base case: if the list is empty, return 0
+    if len(numbers) == 0:
+        return 0
+    # Recursive case: sum of first element + sum of the rest of the list
+    else:
+        return numbers[0] + recursive_sum(numbers[1:])
+
+# Example usage:
+my_numbers = [1, 2, 3, 4, 5]
+total_sum = recursive_sum(my_numbers)
+print("Sum of numbers:", total_sum)
