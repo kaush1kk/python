@@ -1,0 +1,11 @@
+def list_sum(numbers):
+    return sum(numbers)
+
+def list_average(numbers):
+    return list_sum(numbers) / len(numbers)
+my_numbers = [1, 2, 3, 4, 5]
+total_sum = list_sum(my_numbers)
+average = list_average(my_numbers)
+
+print("Sum:", total_sum)
+print("Average:", average)
