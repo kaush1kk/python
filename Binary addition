@@ -1,0 +1,10 @@
+def add_binary(a, b):
+    num1 = int(a, 2)
+    num2 = int(b, 2)
+
+    result = num1 + num2
+    return bin(result)[2:]
+
+binary1 = "1010"
+binary2 = "1111"
+print(add_binary(binary1, binary2))
